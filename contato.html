@@ -2,22 +2,18 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <!-- Configurações de exibição responsiva -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Informações sobre o autor da página -->
     <meta name="author" content="Thiago Dias Oliveira">
-    <!-- Título da página -->
     <title>Contato</title>
-    <!-- Link para o arquivo CSS externo -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>CONTATO</h1>
+        <h1 id="texto principal">CONTATO</h1>
         <nav>
             <ul>
-                <!-- Links de navegação do site -->
-                <li><a href="sobre_mim.html">Sobre mim</a></li>
+                <li><a href="index.html">Sobre mim</a></li>
                 <li><a href="formacao.html">Formação</a></li>
                 <li><a href="portfolio.html">Portfólio</a></li>
                 <li><a href="contato.html">Contato</a></li>
@@ -25,27 +21,22 @@
         </nav>
     </header>
     <main>
-        <section>
+        <div>
             <h2>ENTRE EM CONTATO</h2>
             <!-- Formulário de contato -->
-            <form id="formularioContato">
-                <!-- Campo para nome completo -->
-                <label for="userName">Nome Completo:</label>
-                <input type="text" id="userName" name="userName" required>
-                <!-- Campo para email -->
-                <label for="userEmail">Endereço de Email:</label>
-                <input type="email" id="userEmail" name="userEmail" required>
-                <!-- Campo para mensagem -->
-                <label for="userMessage">Sua Mensagem:</label>
-                <textarea id="userMessage" name="userMessage" required></textarea>
-                <!-- Botão de envio do formulário -->
+            <form id="formulario">
+                <label for="Nome">Nome Completo:</label>
+                <input type="text" id="Nome" name="Nome" required>
+                <label for="Email">Endereço de Email:</label>
+                <input type="email" id="Email" name="Email" required>
+                <label for="Mensagem">Sua Mensagem:</label>
+                <textarea id="Mensagem" name="Mensagem" required></textarea>
                 <button type="submit">Enviar</button>
             </form>
-        </section>
+        </div>
     </main>
     <footer>
-        <!-- Informações de direitos autorais -->
-        <p>&copy; 2024 Thiago Dias Oliveira</p>
+        <p>2024 Thiago Dias Oliveira &copy;</p>
     </footer>
 </body>
 </html>
